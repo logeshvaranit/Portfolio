@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eaf2ff"/><stop offset="1" stop-color="#dce9fb"/></linearGradient>
+  <linearGradient id="rack" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#344d70"/><stop offset="1" stop-color="#182d4a"/></linearGradient>
+  <linearGradient id="disk" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#c7d8f0"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#49658c" flood-opacity=".22"/></filter>
+</defs>
+<rect width="1200" height="560" rx="28" fill="url(#bg)"/>
+<circle cx="960" cy="90" r="170" fill="#fff" opacity=".28"/>
+<path d="M0 440 Q300 360 600 440 T1200 420 V560 H0Z" fill="#d1e0f5" opacity=".55"/>
+<!-- NAS enclosure -->
+<g filter="url(#shadow)" transform="translate(165 112)">
+  <rect x="0" y="0" width="365" height="310" rx="22" fill="url(#rack)"/>
+  <rect x="24" y="24" width="317" height="45" rx="9" fill="#243c5d"/>
+  <circle cx="48" cy="46" r="5" fill="#58d6a3"/><circle cx="68" cy="46" r="5" fill="#58d6a3"/>
+  <text x="94" y="52" fill="#e8f1ff" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">NAS STORAGE</text>
+  <g transform="translate(25 91)">
+    <rect width="315" height="48" rx="8" fill="#405b7e"/>
+    <rect x="15" y="10" width="58" height="28" rx="4" fill="#243c5d"/>
+    <circle cx="29" cy="24" r="4" fill="#62d6aa"/><circle cx="43" cy="24" r="4" fill="#91b7f2"/>
+    <path d="M96 15h190M96 24h190M96 33h130" stroke="#9eb6d6" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  </g>
+  <g transform="translate(25 151)">
+    <rect width="315" height="48" rx="8" fill="#405b7e"/>
+    <rect x="15" y="10" width="58" height="28" rx="4" fill="#243c5d"/>
+    <circle cx="29" cy="24" r="4" fill="#62d6aa"/><circle cx="43" cy="24" r="4" fill="#91b7f2"/>
+    <path d="M96 15h190M96 24h190M96 33h155" stroke="#9eb6d6" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  </g>
+  <g transform="translate(25 211)">
+    <rect width="315" height="48" rx="8" fill="#405b7e"/>
+    <rect x="15" y="10" width="58" height="28" rx="4" fill="#243c5d"/>
+    <circle cx="29" cy="24" r="4" fill="#62d6aa"/><circle cx="43" cy="24" r="4" fill="#91b7f2"/>
+    <path d="M96 15h190M96 24h190M96 33h175" stroke="#9eb6d6" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  </g>
+</g>
+<!-- SAN storage array -->
+<g filter="url(#shadow)" transform="translate(650 150)">
+  <rect x="0" y="0" width="385" height="250" rx="20" fill="#fff" stroke="#c7d8ee" stroke-width="3"/>
+  <rect x="22" y="22" width="341" height="42" rx="8" fill="#edf3fc"/>
+  <text x="43" y="50" fill="#355477" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">SAN ARRAY</text>
+  <g transform="translate(26 88)">
+    <rect width="333" height="56" rx="8" fill="url(#disk)" stroke="#b7cbe5"/>
+    <g fill="#45658c"><circle cx="28" cy="28" r="13"/><circle cx="68" cy="28" r="13"/><circle cx="108" cy="28" r="13"/><circle cx="148" cy="28" r="13"/><circle cx="188" cy="28" r="13"/><circle cx="228" cy="28" r="13"/><circle cx="268" cy="28" r="13"/></g>
+    <g fill="#91d9c1"><circle cx="28" cy="28" r="4"/><circle cx="68" cy="28" r="4"/><circle cx="108" cy="28" r="4"/><circle cx="148" cy="28" r="4"/><circle cx="188" cy="28" r="4"/><circle cx="228" cy="28" r="4"/><circle cx="268" cy="28" r="4"/></g>
+  </g>
+  <g transform="translate(26 158)">
+    <rect width="333" height="56" rx="8" fill="url(#disk)" stroke="#b7cbe5"/>
+    <g fill="#45658c"><circle cx="28" cy="28" r="13"/><circle cx="68" cy="28" r="13"/><circle cx="108" cy="28" r="13"/><circle cx="148" cy="28" r="13"/><circle cx="188" cy="28" r="13"/><circle cx="228" cy="28" r="13"/><circle cx="268" cy="28" r="13"/></g>
+    <g fill="#91d9c1"><circle cx="28" cy="28" r="4"/><circle cx="68" cy="28" r="4"/><circle cx="108" cy="28" r="4"/><circle cx="148" cy="28" r="4"/><circle cx="188" cy="28" r="4"/><circle cx="228" cy="28" r="4"/><circle cx="268" cy="28" r="4"/></g>
+  </g>
+</g>
+<g font-family="Arial,sans-serif" font-weight="700" fill="#456080" font-size="16" letter-spacing="3">
+<text x="168" y="474">NETWORK ATTACHED STORAGE</text><text x="653" y="444">STORAGE AREA NETWORK</text>
+</g>
+<path d="M532 265 C570 220 610 220 650 265" fill="none" stroke="#5e8fce" stroke-width="5" stroke-dasharray="10 10" stroke-linecap="round"/>
+<circle cx="590" cy="239" r="12" fill="#fff" stroke="#5e8fce" stroke-width="4"/>
+</svg>
